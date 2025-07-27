@@ -24,8 +24,12 @@ cd django-api-rest
 
 2️⃣ **Crie e ative o ambiente virtual**
 ```bash
-python -m venv venv  
-source venv/bin/activate  _(Linux/Mac)_  
+python -m venv venv
+```
+```bash
+source venv/bin/activate  _(Linux/Mac)_
+```
+```bash
 venv\Scripts\activate     _(Windows)_
 ```
 
@@ -37,9 +41,9 @@ pip install -r requirements.txt
 4️⃣ **Configure variáveis de ambiente**  
 Crie um arquivo `.env` na raiz do projeto com o conteúdo:
 ```bash
-`DEBUG=True`
-`SECRET_KEY=sua_chave_secreta`
-`ALLOWED_HOSTS=127.0.0.1,localhost`
+DEBUG=True
+SECRET_KEY=sua_chave_secreta
+ALLOWED_HOSTS=127.0.0.1,localhost
 ```
 
 5️⃣ **Execute as migrações**
