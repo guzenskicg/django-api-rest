@@ -1,6 +1,10 @@
 from rest_framework import viewsets
-from .models import Item
-from .serializers import ItemSerializer
+from .models import Item, Person
+from .serializers import ItemSerializer, PersonSerializer
+
+class PersonViewSet(viewsets.ModelViewSet):
+    queryset = Person.objects.all()
+    serializer_class = PersonSerializer
 
 class ItemViewSet(viewsets.ModelViewSet):
     queryset = Item.objects.all()
