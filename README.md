@@ -27,10 +27,10 @@ cd django-api-rest
 python -m venv venv
 ```
 ```bash
-source venv/bin/activate  _(Linux/Mac)_
+source venv/bin/activate # (Linux/Mac)
 ```
 ```bash
-venv\Scripts\activate     _(Windows)_
+venv\Scripts\activate #(Windows)
 ```
 
 3️⃣ **Instale as dependências**
